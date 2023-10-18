@@ -18,13 +18,9 @@ int main()
     digit2 = num2 % 10;
     sum2 += digit2;
     }
-    if (sum1<sum2&&onum1<onum2)
+    if (sum1<sum2)
     printf ("%d",onum1);
-    else if (sum1<sum2&&onum2<onum1)
-    printf ("%d",onum2);
-    else if (sum2<sum1&&onum1<onum2)
-    printf ("%d",onum1);
+
     else
     printf ("%d",onum2);
 }
-
