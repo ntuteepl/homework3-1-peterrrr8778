@@ -15,10 +15,10 @@ int main()
     }
     if (num)
     {
-    printf ("Yes");
+    printf ("YES");
     }
     else
     {
-    printf ("No");
+    printf ("NO");
     }
 }
